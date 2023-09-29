@@ -6,14 +6,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: antiquewhite;
     color: black;
-
 }
 header{
-    
+    margin: 20px;
+    padding: 5px;
+    height: 15vh;
 }
 main{
-
+    height: 75vh;
 }
 footer{
-
+    display: flex;
+    height: 10vh;
 }
