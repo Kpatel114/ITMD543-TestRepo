@@ -6,16 +6,33 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: antiquewhite;
     color: black;
+    margin: 20px 40px;
+}
+nav{
+
+}
+ul{
+    list-style: none;
 }
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
     padding: 5px;
-    height: 15vh;
+    height: 10vh;
 }
 main{
-    height: 75vh;
+    height: 58vh;
 }
+.main-glass{
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: rgb(228, 193, 142);
+}
+
 footer{
     display: flex;
-    height: 10vh;
+    justify-content: space-between;
+    height: 20vh;
 }
